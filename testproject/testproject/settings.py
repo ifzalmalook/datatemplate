@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-%m0@@e6w$m6#z_eh!z=*+%ecpxxf(znhw8)rx(2*5791=jfe*(
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-ifzalmalook-datatemplat-5zzhlq7dq7z.ws-eu108.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-ifzalmalook-datatemplat-5zzhlq7dq7z.ws-eu108.gitpod.io']
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'people'
 ]
 
 MIDDLEWARE = [
